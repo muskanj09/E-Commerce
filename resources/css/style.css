@@ -163,15 +163,28 @@ h2 {
 }
 
 .section-pricing {
-    width: 100%;
+    /* width: 100%; */
     background-color: black;
-    padding-block: 64px;
+    /* padding-block: 64px; */
     text-align: center;
+    /* display: flex;
+    justify-content: space-around; */
 }
 
-.section-pricing .row {
+.section-pricing .row1 {
     padding-left: 30px;
-    width: 100%;
+    /* width: 100%; */
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.section-pricing .row2 {
+    padding-left: 30px; 
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .bbtn:link,
@@ -219,7 +232,7 @@ h2 {
 .card-heading {
     display: flex;
     justify-content: space-between;
-    width: 300px;
+    /* width: 300px; */
 }
 
 h3 {
